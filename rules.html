@@ -1,0 +1,81 @@
+<!Doctype HTML>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>ClickGame</title>
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+  <style>
+    footer {
+      padding-top: 40px;
+    }
+
+    h4 {
+      margin-top: 120px;
+    }
+
+   .rules {
+      list-style: none;
+      counter-reset: li
+    }
+
+    .rules li::before {
+      content: counter(li);
+      color: red;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em
+    }
+
+    .rules li {
+      counter-increment: li;
+      font-family: Calibri;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1 class="text-center">TIC TAC RULES</h1>
+  <header>
+    <div class="nav">
+      <ul>
+        <li class="home"><a href="index.html">Play Game</a></li>
+        <li class="tutorials"><a class="active" href="rules.html">Rules</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <h4 class="text-center">Rules of Tic-Tac-Toe</h4>
+  <hr>
+  <ol class="rules">
+    <li>• Play occurs on a 3 by 3 grid of 9 squares.</li>
+    <li>• Two players take turns marking empty squares, the first marking X's, the second O's.</li>
+    <li>• A row is any three squares on the grid, adjacent diagonally, vertically or horizontally.</li>
+    <li>• If one player places three of the same marks in a row, the player wins.</li>
+    <li>• If the spaces are all filled and there is no winner, the game ends in a draw.</li>
+  </ol>
+  <hr>
+
+
+
+
+  <footer id="footer" class="text-center ">
+    <div class="container ">
+      Designed with ❤ by
+      <a class="author " href="https://www.instagram.com/jasky.singh/ " target="_blank ">
+         <strong>Jaskaran Singh</strong></a>
+    </div>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>

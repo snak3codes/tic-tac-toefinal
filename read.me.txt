@@ -1,0 +1,14 @@
+JavaScript Arrays and Functions
+
+Understanding JavaScript exercises to learn arrays and functions. 
+
+Usage notes
+-------------------------
+Browse the links in the text documents
+Test the programs
+-------------------------
+
+Author: Jaskaran Singh
+Email: 851489@pdsb.net
+
+All Rights Reserved.

@@ -1,0 +1,72 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ClickGame</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="game.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+    <h1 class="text-center">TIC TAC TOE</h1>
+    <header>
+        <div class="nav">
+            <ul>
+                <li class="home"><a href="index.html">Login Page</a></li>
+                <li class="tutorials"><a class="active" href="rules.html">Rules</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <table id="game">
+            <tr>
+                <td id="00" class="cell" onClick="clickBox(0,0);"></td>
+                <td id="01" class="cell" onClick="clickBox(0,1);"></td>
+                <td id="02" class="cell" onClick="clickBox(0,2);"></td>
+            </tr>
+            <tr>
+                <td id="10" class="cell" onClick="clickBox(1,0);"></td>
+                <td id="11" class="cell" onClick="clickBox(1,1);"></td>
+                <td id="12" class="cell" onClick="clickBox(1,2);"></td>
+            </tr>
+            <tr>
+                <td id="20" class="cell" onClick="clickBox(2,0);"></td>
+                <td id="21" class="cell" onClick="clickBox(2,1);"></td>
+                <td id="22" class="cell" onClick="clickBox(2,2);"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="score">
+        <p class="text-center">PLAYER 1: <span id="scorex">0 </span> PLAYER 2: <span id="scorey">0</span></p>
+
+
+
+
+    </div>
+
+
+    <button id="reset-game" class="btn btn-danger" type="button" name="button" onclick="reset();">Reset</button>
+
+
+    <footer id="footer " class="text-center ">
+        <div class="container2 ">
+            Designed with ❤ by
+            <a class="author " href="https://www.instagram.com/jasky.singh/ " target="_blank ">
+         <strong>Jaskaran Singh</strong></a>
+        </div> <br>
+        <span id="online">ONLINE</span>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

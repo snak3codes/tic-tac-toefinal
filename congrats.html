@@ -1,0 +1,174 @@
+<!Doctype HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>ClickGame</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+    <style>
+        .btn {
+            margin-right: 100px;
+        }
+
+
+        footer {
+            margin-top: 140px;
+        }
+
+        .container {
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            margin-right: 300px;
+            margin-top: 10px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 40px;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-put;
+            font-weight: 200;
+        }
+
+        h5 {
+            margin-top: 20px;
+            font-size: 25px;
+        }
+
+        form,
+        .login,
+        hr {
+            -webkit-animation: slide-in-left 0.5s 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-left 0.5s 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        .top {
+            -webkit-animation: fade-in 1.2s 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in 1.2s 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
+
+        @-webkit-keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes color-change-5x {
+            0% {
+                background: #19dcea;
+            }
+            25% {
+                background: #b22cff;
+            }
+            50% {
+                background: #ea2222;
+            }
+            75% {
+                background: #f5be10;
+            }
+            100% {
+                background: #3bd80d;
+            }
+        }
+
+        @keyframes color-change-5x {
+            0% {
+                background: #19dcea;
+            }
+            25% {
+                background: #b22cff;
+            }
+            50% {
+                background: #ea2222;
+            }
+            75% {
+                background: #f5be10;
+            }
+            100% {
+                background: #3bd80d;
+            }
+        }
+
+
+        body {
+            -webkit-animation: color-change-5x 2s linear infinite alternate both;
+            animation: color-change-5x 2s linear infinite alternate both;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="top">
+
+
+        <h1 class="text-center">TIC-TAC-TOE</h1>
+        <header>
+            <h6 class="text-center">Simple, <strong> bold</strong>, <i>innovative</i>, strategy game</h6>
+
+            <h1>THANK YOU FOR PLAYING</h1> <br><br>
+            <h2>Congrats on your victory!</h2>
+            <br><br>
+
+            <a href="index.html"><button class="btn btn-danger" type="button" name="button" >Go Back</button></a>
+
+            <footer id="footer " class="text-center ">
+                <div class="container ">
+                    Designed with ❤ by
+                    <a class="author " href="https://www.instagram.com/jasky.singh/ " target="_blank ">
+         <strong>Jaskaran Singh</strong></a>
+                </div>
+            </footer>
+
+
+
+
+
+</body>
+
+</html>
